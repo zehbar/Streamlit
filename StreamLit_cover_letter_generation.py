@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.header("Cover Letter Generator")
+
 desired_position = st.text_input("enter desired position")
 desired_company = st.text_input("enter desired company")
 strengths_and_skills = st.text_input("enter skills as strengths")
